@@ -1,15 +1,15 @@
 # Security Policy
-**Please Read before reporting a Security Issue!**
+*Please Read before reporting a Security Issue!*
 
-### Reporting Security Issues:
+### __Reporting Security Issues__:
 Security issues may be reported to our management team privately e.g. on Discord. Note that this applies _only_ to security issues; everything else should still be posted to issue tracker.
 
 Publicly posting security issues is also allowed, because not everyone has or wants a Discord account. We may add other channels for private reports in future.
 
-### Team Guidelines:
+### __Team Guidelines__:
 Everyone with push access must use two-factor authentication for their Github accounts. Should their account still be compromised, other team members should be immediately notified via Discord.
 
-### Current Support:
+### __Current Support__:
 
 |                 |     User Input     |
 |:---------------:|:------------------:|
