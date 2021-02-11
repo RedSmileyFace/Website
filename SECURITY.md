@@ -9,7 +9,7 @@ Publicly posting security issues is also allowed, because not everyone has or wa
 ### __Team Guidelines__:
 Everyone with push access must use two-factor authentication for their Github accounts. Should their account still be compromised, other team members should be immediately notified via Discord.
 
-### __Current Support__:
+### __Browser Support__:
 
 |                 |     User Input     |
 |:---------------:|:------------------:|
