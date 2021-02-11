@@ -85,9 +85,7 @@ h1, h2, h3, h4, h5, h6 {
       transition-delay: 0 !important;
  }
 }
-/*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
+/*-------------------------------------------------------------- # Top Bar --------------------------------------------------------------*/
 #topbar {
   background: #c32324;
   height: 0px;
@@ -96,39 +94,32 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 0;
 }
-
 #topbar .contact-info i {
   font-style: normal;
   color: #fff;
 }
-
 #topbar .contact-info i a, #topbar .contact-info i span {
   padding-left: 5px;
   color: #fff;
 }
-
 #topbar .contact-info i a {
   line-height: 0;
   transition: 0.3s;
   transition: 0.3s;
 }
-
 #topbar .contact-info i a:hover {
   color: #fff;
   text-decoration: underline;
 }
-
 #topbar .social-links a {
   color: rgba(255, 255, 255, 0.7);
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
 }
-
 #topbar .social-links a:hover {
   color: white;
 }
-
 /*-------------------------------------------------------------- # Header --------------------------------------------------------------*/
 #header {
   background: #fff;
@@ -764,7 +755,7 @@ section {
  /* NOTE TO SELF */
   text-align: center;
  /* border: 1px solid #bcc6d3;
- */
+  */
   border-radius: 10px;
   width: 100%;
   transition: all ease-in-out 0.3s;
@@ -892,7 +883,6 @@ section {
 .testimonials.bg2 .testimonial-item {
   text-align: center;
   color: rgb(255, 255, 255);
-
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
@@ -2128,34 +2118,27 @@ hr.solid {
   color: #555;
   text-decoration: none;
 }
-
 .social-link:hover {
   color: #c32324;
   text-decoration: underline;
 }
-
 .github {
   position: fixed;
   left: 1.5%;
   bottom: 2.2%;
   font-size: 50px;
   color:black;
-  opacity: 75%;
+  opacity: 75;
   transition: 1s;
   backface-visibility: hidden;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
 .github:hover {
   color:#000000;
   cursor: pointer;
-  opacity: 100%;
+  opacity: 100;
   transition: 1s;
   transform: scale(1.2);
   backface-visibility: hidden;
   -webkit-font-smoothing: subpixel-antialiased;
 }
-
-
-
-
