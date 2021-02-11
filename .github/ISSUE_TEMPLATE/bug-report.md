@@ -1,7 +1,7 @@
 ---
 name: Bug Report
 about: Report a bug in our website.
-title: "[BUG REPORT] "
+title: ""
 labels: Bug Report
 assignees: ''
 
