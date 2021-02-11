@@ -2134,11 +2134,27 @@ hr.solid {
   text-decoration: underline;
 }
 
+.github {
+  position: fixed;
+  left: 1.5%;
+  bottom: 2.2%;
+  font-size: 50px;
+  color:black;
+  opacity: 75%;
+  transition: 1s;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
 
-
-
-
-
+.github:hover {
+  color:#000000;
+  cursor: pointer;
+  opacity: 100%;
+  transition: 1s;
+  transform: scale(1.2);
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
 
 
 
