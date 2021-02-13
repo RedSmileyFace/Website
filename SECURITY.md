@@ -11,11 +11,14 @@ Everyone with push access must use two-factor authentication for their Github ac
 
 ### __Browser Support__:
 
-|                 |     User Input     |
-|:---------------:|:------------------:|
-|  Google Chrome  | :white_check_mark: |
-|      Safari     | :white_check_mark: |
-| Mozilla Firefox | :white_check_mark: |
-|      Brave      |         :x:        |
+|                       |      Computer      |       Mobile       |
+|:---------------------:|:------------------:|:------------------:|
+|       **Chrome**      | :white_check_mark: | :white_check_mark: |
+|        **Edge**       | :white_check_mark: | :white_check_mark: |
+|  **Mozilla Firefox**  | :white_check_mark: |         :x:        |
+| **Internet Explorer** |         :x:        | :white_check_mark: |
+|       **Opera**       | :white_check_mark: | :white_check_mark: |
+|       **Safari**      | :white_check_mark: | :white_check_mark: |
+|       **Brave**       | :white_check_mark: |         :x:        |
 
 > Please create a report in our **Issue Tracker** if you find issues with any browser!
