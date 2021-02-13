@@ -308,7 +308,7 @@ html[data-theme='dark'] .mobile-nav {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #000;
+  background: #1c1c1c;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -329,7 +329,7 @@ html[data-theme='dark'] .mobile-nav a {
   outline: none;
 }
 html[data-theme='dark'] .mobile-nav a:hover, html[data-theme='dark'] .mobile-nav .active > a, html[data-theme='dark'] .mobile-nav li:hover > a {
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
@@ -362,7 +362,7 @@ html[data-theme='dark'] .mobile-nav-overly {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(246, 246, 246, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
