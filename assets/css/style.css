@@ -1889,7 +1889,6 @@ th, td {
   display: block;
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 .portfolio-button.secondary {
   width: 100%;
