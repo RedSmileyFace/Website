@@ -8,7 +8,7 @@ html[data-theme='dark'] body {
   color: #D2D2D2;
 }
 html[data-theme='dark'] a {
-  color: #ffffff;
+  color: #c32324;
 }
 html[data-theme='dark'] a:hover {
   color: #3c91dd;
@@ -1474,7 +1474,7 @@ html[data-theme='dark'] .contact .php-email-form button[type="submit"] {
   border-radius: 4px;
 }
 html[data-theme='dark'] .contact .php-email-form button[type="submit"]:hover {
-  background: #000000;
+  background: #ffffff;
   border: 2px solid black;
   color: black;
 }
@@ -1744,6 +1744,9 @@ html[data-theme='dark'] .code-1 {
   background-color: #c32324;
   padding: 4px;
   border-radius: 4px;
+}
+html[data-theme='dark'] .code-1 a {
+  color: #fff;
 }
 html[data-theme='dark'] .alert-danger .alert-link {
   font-weight: 700;
@@ -2231,4 +2234,21 @@ html[data-theme='dark'] .h-404{
 }
 html[data-theme='dark'] .p-404{
   color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+html[data-theme='dark']  .form-control::placeholder{
+  background: black;
+}
+html[data-theme='dark']  .form-control{
+  background: black;
 }
