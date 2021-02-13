@@ -5,9 +5,11 @@ body {
 }
 a {
   color: #c32324;
+  transition: 0.5s;
 }
 a:hover {
   color: #3b8af2;
+  transition: 0.5s;
   text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
