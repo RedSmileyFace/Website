@@ -308,7 +308,7 @@ html[data-theme='dark'] .mobile-nav {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #1c1c1c;
+  background: #000;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -329,7 +329,7 @@ html[data-theme='dark'] .mobile-nav a {
   outline: none;
 }
 html[data-theme='dark'] .mobile-nav a:hover, html[data-theme='dark'] .mobile-nav .active > a, html[data-theme='dark'] .mobile-nav li:hover > a {
-  color: #ffffff;
+  color: #000000;
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
@@ -362,7 +362,7 @@ html[data-theme='dark'] .mobile-nav-overly {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(246, 246, 246, 0.6);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -1944,8 +1944,8 @@ html[data-theme='dark'] .footer-button {
   width: auto;
   background-color: #c32324;
   padding: 4px;
-  margin-top: 0px;
-  color: #000;
+  margin-top: 0px; 
+  color: rgb(255, 255, 255); 
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
@@ -1954,9 +1954,9 @@ html[data-theme='dark'] .footer-button {
   border-radius: 8px;
   border-color: rgba(0, 0, 0, 0);
 }
-.footer-button:hover {
+html[data-theme='dark'] .footer-button:hover {
   width: auto;
-  background-color: #5fe0e0;
+  background-color: #ffffff;
   padding: 4px;
   margin-top: 0px;
   color: #000;
