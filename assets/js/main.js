@@ -242,9 +242,7 @@ const toggleTheme = (theme) => {
     htmlEl.dataset.theme = theme;
 }
 
-
-
-
+ // Prefered System Settings
 var toggle = document.getElementById("theme-toggle");
 
 var storedTheme = localStorage.getItem('theme') || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
