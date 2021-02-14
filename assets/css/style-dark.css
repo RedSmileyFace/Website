@@ -1094,7 +1094,7 @@ html[data-theme='dark'] .portfolio-details .portfolio-details-carousel .owl-nav,
   margin-top: 5px;
   text-align: left;
 }
-.portfolio-details .portfolio-details-carousel .owl-dot {
+html[data-theme='dark'] .portfolio-details .portfolio-details-carousel .owl-dot {
   display: inline-block;
   margin: 0 10px 0 0;
   width: 12px;
