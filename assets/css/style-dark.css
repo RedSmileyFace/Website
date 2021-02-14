@@ -329,7 +329,7 @@ html[data-theme='dark'] .mobile-nav a {
   outline: none;
 }
 html[data-theme='dark'] .mobile-nav a:hover, html[data-theme='dark'] .mobile-nav .active > a, html[data-theme='dark'] .mobile-nav li:hover > a {
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
@@ -362,7 +362,7 @@ html[data-theme='dark'] .mobile-nav-overly {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(246, 246, 246, 0.6);
+  background: rgba(246, 246, 246, .1);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
@@ -375,7 +375,10 @@ html[data-theme='dark'] .mobile-nav-active .mobile-nav {
   visibility: visible;
 }
 html[data-theme='dark'] .mobile-nav-active .mobile-nav-toggle i {
-  color: #000;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px;
 }
 /*-------------------------------------------------------------- # Hero Section --------------------------------------------------------------*/
 html[data-theme='dark'] #hero {
