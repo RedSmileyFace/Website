@@ -2167,8 +2167,8 @@ hr.solid {
   padding: 6px;
 }
 .bulb:hover {
-  color:#ffffff;
-  background: black;
+  color:#000000;
+  background: #0000003d;
   cursor: pointer;
   transition: 1.0s;
   backface-visibility: hidden;
