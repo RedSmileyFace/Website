@@ -744,7 +744,7 @@ html[data-theme='dark'] .clients {
   text-align: center;
   height: 0;
 }
-.clients img {
+html[data-theme='dark'] .clients img {
   max-width: 0;
   transition: all 0 .4s ease-in-out;
   display: inline-block;
