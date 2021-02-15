@@ -262,3 +262,5 @@ toggle.onclick = function() {
     localStorage.setItem('theme', targetTheme);
 };
 
+var skinRender = new SkinRender({/* options */}, document.getElementById("mySkinContainer"));
+skinRender.render("inventivetalent");
